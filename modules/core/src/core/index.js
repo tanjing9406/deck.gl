@@ -103,16 +103,10 @@ import ReflectionEffect from './experimental/reflection-effect/reflection-effect
 
 // DEPRECATED
 
-import {default as MapControllerOld} from './controllers/map-controller';
-import {default as OrbitControllerOld} from './controllers/orbit-controller';
-
 export const experimental = {
   OrbitController,
 
   ViewportControls,
-
-  MapControllerOld,
-  OrbitControllerOld,
 
   FirstPersonViewport,
   ThirdPersonViewport,
